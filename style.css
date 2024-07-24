@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+:root{
+    --primaryDarkCyan: hsl(158, 36%, 37%);
+    --primaryCrem: hsl(30, 38%, 92%);
+    --neutralDarkBlue: hsl(212, 21%, 14%);
+    --neutralGray: hsl(228, 12%, 48%);
+    --neutralWhite: hsl(0, 0%, 100%);
+}
