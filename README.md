@@ -41,43 +41,25 @@
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- mobile-first workflow
+- desktop-first workflow
 
 
 ### What I learned
 
 <p>Use of classes to separate the content and recycle them when it's necessary, making the structure cleaner and readeable.This approach not only improves code maintainability but also allows for easier updates and scalability.</p>
 
-```html
-<div class="recipe-preparation-time">
-  <h3>Preparation time</h3>
-  <ul class="preparation-time-list">
-    <li><span class="span-bold">Total:</span> Approximately 10 minutes</li>
-    <li><span class="span-bold">Preparation:</span> 5 minutes</li>
-    <li><span class="span-bold">Cooking:</span>: 5 minutes</li>
-  </ul>
-</div>
-<div class="nutrition-table">
-  <p>Carbs</p>
-  <span class="grams-table">0g</span>
-</div>
-<div class="nutrition-table">
-  <p>Protein</p>
-  <span class="grams-table">20g</span>
-</div>
-```
-
 <p>Using media queries to fit the content depending on the user's device ensures that the layout is responsive and looks good on all screen sizes. This is crucial for improving user experience on different devices.</p>
 
 ```css
-@media (min-width: 500px) {
-    section{
-        margin: 8px 30px 8px 30px;
-        
-    }
-    body{
-        padding: 50px;
-    }
+.product-container{
+    margin: 1em;
+    display: grid;
+    background-color: var(--neutralWhite);
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    width: 585px;
+    min-width: 290px;
+    grid-auto-rows: minmax(17em, 26rem);
+    border-radius: 10px;
 }
 ```
 
