@@ -40,15 +40,16 @@
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Media queries
+- Relative Units
+- Clamp() Property
 - CSS Grid
 - desktop-first workflow
 
 
 ### What I learned
 
-<p>Use of classes to separate the content and recycle them when it's necessary, making the structure cleaner and readeable.This approach not only improves code maintainability but also allows for easier updates and scalability.</p>
-
-<p>Using media queries to fit the content depending on the user's device ensures that the layout is responsive and looks good on all screen sizes. This is crucial for improving user experience on different devices.</p>
+<p>In this project, I learned how to effectively use CSS Grid to create a responsive layout without relying on media queries. By applying the grid-template-columns property with repeat(auto-fit, minmax(16rem, 1fr)), I was able to create a grid that adjusts to different screen sizes, ensuring that the content is flexible and adapts to various viewport widths. I also used grid-auto-rows to control the height of the rows, which helped maintain a consistent design while allowing the content to scale appropriately.</p>
 
 ```css
 .product-container{
@@ -66,7 +67,6 @@
 
 ### Continued development
 
-<p>For future development, I plan to focus on enhancing my skills in CSS animations to create more interactive and engaging user interfaces. Additionally, I want to delve deeper into JavaScript to add more dynamic functionalities to my web projects.</p>
+<p>Moving forward, I aim to refine my understanding of CSS Grid by exploring more advanced features such as grid areas and subgrid. Additionally, I plan to experiment with combining CSS Grid with other layout techniques to enhance the responsiveness and flexibility of my designs. Ensuring that the layout adapts seamlessly across a variety of devices and screen sizes remains a key focus, and I will continue to test and iterate to achieve optimal results.</p>
 
-<p>Another area for improvement is optimizing the website for better performance by minimizing CSS and JavaScript files, and ensuring images are properly compressed without losing quality.</p>
 
